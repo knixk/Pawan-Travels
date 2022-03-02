@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&family=Dongle&display=swap");
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   /* margin-left: 20px; */
   /* margin-right: 20px; */
 }
@@ -175,6 +175,21 @@ footer {
     transform: translateY(50px);
     position: absolute;
   }
+
+  #ul {
+    margin-top: 0.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    margin-top: 3rem;
+  }
 }
 
 .img {
@@ -208,9 +223,11 @@ footer {
 
 input,
 .round {
+  /* overflow: hidden; */
   border-radius: 20px;
   padding: 10px;
   width: 80%;
+  max-width: 10rem;
 }
 
 .round {
